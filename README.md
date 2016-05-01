@@ -19,11 +19,12 @@ Pay attention to **altinstall** :
 * `$ sudo sudo ./configure --prefix=/opt/python3.4 --with-zlib-dir=/usr/local/lib/ --with-ensurepip=install`
 * `$ sudo make altinstall`
     
-With using the **altinstall** switch you are sure that the current version(s) of python is not affected or damaged.
+With using the **altinstall** switch you are sure that the previously installed version(s) of python is not affected or damaged.
 
 ## Check the Python Version
 * `$ python3.4 -V`
 
-If all is done correctly you see `Python 3.4.4`. But if you don't see the next steps should be helpful.
+If all is done correctly you see `Python 3.4.4`. But if you don't, the next steps should be helpful.
 
-##
+
+## Make shortcut from Python executable binary
