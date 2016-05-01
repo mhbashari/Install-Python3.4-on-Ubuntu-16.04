@@ -34,7 +34,7 @@ If you done this instruction without any changes your 3.4 executable binary has 
 If don't access to the pip3.4 do this:
 
 * in `/usr/bin` directory find `pip3` file
-* duplicate and rename it to `pip3.4`, on the first line you see `#!/usr/bin/python3`
+* duplicate and name `pip3.4`, on the first line you see `#!/usr/bin/python3`
 * change to `#!/usr/bin/python3.4` and save. (if you want to skip the previous step use `/opt/python3.4` instead)
 
 Any issue ?
