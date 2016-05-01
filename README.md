@@ -9,6 +9,7 @@ The last version of python is bundled with ubuntu 16.04. But at this time there 
     * `$ wget https://www.python.org/ftp/python/3.4.4/Python-3.4.4.tgz`
 * extract it by:
     * `$ sudo tar xzf Python-3.4.4.tgz`
+    
 ## Compile Python Source
 Pay attention to **altinstall** :
 * `$ cd Python-3.4.4`
