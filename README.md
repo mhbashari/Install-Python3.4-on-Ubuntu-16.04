@@ -1,5 +1,5 @@
 # Install Python3.4 on Ubuntu-16.04
-The last version of python is bundled with ubuntu 16.04. But at this time there are some famous packages incompatible with version 3.5. There is no guaranty but By Following this instruction you almost certainly  can build and use the python version 3.4 on ubuntu16.04.Before start I give my thanks to [http://tecadmin.net/](http://bit.ly/py34biu1604) for its great step by step guide but I do some edition on it. So let to do:
+The last version of python is bundled with ubuntu 16.04. But at this time there are some famous packages incompatible with version 3.5. There is no guaranty but By Following this instruction you almost certainly  can build and use the python version 3.4 on ubuntu16.04.Before start I give my thanks to [tecadmin.net/](http://bit.ly/py34biu1604) for its great step by step guide, but I do some edition on it. So let to do:
 
 ## Install Required Packages
 * Install some packages from launchpad:
@@ -28,3 +28,13 @@ If all is done correctly you see `Python 3.4.4`. But if you don't, the next step
 
 
 ## Make shortcut from Python executable binary
+If you done this instruction without any changes your 3.4 executable binary has been placed in `/opt/python3.4` in `nautilus` right click on **python3.4** executable and select **make link**. The new shortcut created. Copy this shortcut to `/usr/bin` and go to previous step
+
+## Make pip3.4 globally accessible
+If don't access to the pip3.4 do this:
+
+* in `/usr/bin` directory find `pip3` file
+* duplicate and rename it to `pip3.4`, on the first line you see `#!/usr/bin/python3`
+* change to `#!/usr/bin/python3.4` and save. (if you want to skip the previous step use `/opt/python3.4` instead)
+
+Any issue ?
