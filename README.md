@@ -19,7 +19,7 @@ Pay attention to **altinstall** :
 * `$ sudo sudo ./configure --prefix=/opt/python3.4 --with-zlib-dir=/usr/local/lib/ --with-ensurepip=install`
 * `$ sudo make altinstall`
     
-With using the **altinstall** switch you are sure that the previously installed version(s) of python is not affected or damaged.
+With using the **altinstall** switch you are sure that the previous installed version(s) of python is not affected or damaged.
 
 ## Check the Python Version (Installation test)
 * `$ python3.4 -V`
