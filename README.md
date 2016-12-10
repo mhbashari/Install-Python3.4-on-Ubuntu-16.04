@@ -6,6 +6,7 @@ The last version of python is bundled with ubuntu 16.04. But at this time there 
     * `$ sudo apt-get install build-essential checkinstall`
     * `$ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev`
     * `$ sudo apt-get install libssl-dev openssl`
+    * `$ sudo apt install lzma lzma-dev liblzma-dev` Python 3.4.5 - according to @ilya-khaustov [Contribution](https://github.com/mhbashari/Install-Python3.4-on-Ubuntu-16.04/issues/1)
     
 ## Download and extract Python Source Code
 * download https://www.python.org/ftp/python/3.4.4/Python-3.4.4.tar.xz:
